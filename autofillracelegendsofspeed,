@@ -1,0 +1,8 @@
+local playerHead = game:GetService("Players").LocalPlayer.Character.Head
+
+while true do
+    local city = game:GetService("Workspace")
+
+ game:GetService("ReplicatedStorage"):WaitForChild("rEvents"):WaitForChild("raceEvent"):FireServer("joinRace")
+    wait(0.01)
+end
